@@ -1,0 +1,5 @@
+package com.ezen.springboard.common;
+
+public class CamelHashMap {
+
+}

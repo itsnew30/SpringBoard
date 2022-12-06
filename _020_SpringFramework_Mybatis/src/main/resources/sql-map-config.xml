@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+	PUBLIC "-//mybatis.org/dtd/DTD config 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<settings>
+		<setting name="mapUnderscoreToCamelCase" value="true"></setting>
+	</settings>
+	
+	<typeAliases>
+		<typeAlias type="com.ezen.spring.vo.BoardVO" alias="board"></typeAlias>
+		<typeAlias type="com.ezen.spring.vo.BoardVO" alias="user"></typeAlias>
+	</typeAliases>
+	
+	<mappers>
+		<mapper resource="mappings/*-mapper.xml"></mapper>
+	</mappers>
+</configuration>

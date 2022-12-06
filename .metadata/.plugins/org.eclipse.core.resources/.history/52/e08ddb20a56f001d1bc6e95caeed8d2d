@@ -1,0 +1,14 @@
+package com.ezen.springboard.common;
+
+import java.util.HashMap;
+
+import org.springframework.jdbc.support.JdbcUtils;
+
+
+@SuppressWarings("serial")
+public class CamelHashMap extends HashMap {
+	@Override
+	public Object put(String key, Object value) {
+		return super.put(JdbcUtils.convertUnderscoreNameToPropertyName(key), value);
+	}
+}

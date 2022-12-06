@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;_025_SpringBoard_FileUpload/src/main/webapp/images/google-docs.png&apos; to &apos;defaultFileImg.png&apos;" description="Rename resource &apos;google-docs.png&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/images/google-docs.png" name="defaultFileImg.png" stamp="1669341865805" updateReferences="true"/>
+</session>
